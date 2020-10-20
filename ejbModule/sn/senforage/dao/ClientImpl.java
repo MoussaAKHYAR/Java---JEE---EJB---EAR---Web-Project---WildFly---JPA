@@ -2,8 +2,11 @@ package sn.senforage.dao;
 
 import java.util.List;
 
+import javax.ejb.Stateless;
+
 import sn.senforage.entities.Client;
 
+@Stateless
 public class ClientImpl implements IClient{
 
 	@Override

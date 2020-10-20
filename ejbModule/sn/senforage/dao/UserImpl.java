@@ -2,13 +2,16 @@ package sn.senforage.dao;
 
 import java.util.List;
 
+import javax.ejb.Stateless;
+
 import sn.senforage.entities.User;
 
+@Stateless
 public class UserImpl implements IUser {
 
 	@Override
 	public int add(User utilisateur) {
-		// TODO Auto-generated method stub
+		
 		return 0;
 	}
 

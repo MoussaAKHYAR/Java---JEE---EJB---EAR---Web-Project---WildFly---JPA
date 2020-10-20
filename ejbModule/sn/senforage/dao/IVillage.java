@@ -2,8 +2,11 @@ package sn.senforage.dao;
 
 import java.util.List;
 
+import javax.ejb.Local;
+
 import sn.senforage.entities.Village;
 
+@Local
 public interface IVillage {
     public int add(Village village);
     public List<Village> villages();
