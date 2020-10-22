@@ -15,7 +15,7 @@ public class ClientImpl implements IClient{
 private EntityManager em;
 	
     public ClientImpl() {
-    	EntityManagerFactory emf = Persistence.createEntityManagerFactory("senforagePU");
+    	EntityManagerFactory emf = Persistence.createEntityManagerFactory("SenforageEJB");
 		em = emf.createEntityManager();
 	}
 
